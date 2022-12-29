@@ -1,0 +1,3 @@
+# UCCX Banner Removal (Joke)
+
+Removes the banners on the UCCX admin page informing you that things aren't configured correctly or broken. This is a firefox plugin as other browsers don't play nice with the UCCX admin page.
