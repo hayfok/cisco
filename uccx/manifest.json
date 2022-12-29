@@ -1,0 +1,16 @@
+{
+
+    "manifest_version": 2,
+    "name": "uccx banner remover",
+    "version": "1.0",
+  
+    "description": "removes the ugly banners on uccx telling me things aren't configured right or broken. no boss, i don't see an issue here",
+  
+    "content_scripts": [
+      {
+        "matches": ["https://*/appadmin/main"],
+        "js": ["r.js"]
+      }
+    ]
+  
+  }
